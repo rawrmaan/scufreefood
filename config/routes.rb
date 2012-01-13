@@ -1,4 +1,8 @@
 Freefood::Application.routes.draw do
+  get "main/events"
+
+  get "main/singleEvent"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
