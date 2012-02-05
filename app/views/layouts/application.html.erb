@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Starving Student | <%= @title %></title>
-  <%= stylesheet_link_tag    "application" %>
+  <title><%= title %></title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  <%= stylesheet_link_tag 'main' %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<header>
+		<%= image_tag("header.png", :alt => "Starving Student", :class => "header") %>
+	</header>
+	
+	<%= yield %>
+	
+	<%= render 'layouts/footer' %>
+	
 </body>
 </html>
