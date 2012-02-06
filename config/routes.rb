@@ -1,6 +1,7 @@
 Freefood::Application.routes.draw do
+
   match '/events', :to => 'main#events'
-  match '/addevent', :to => 'main#addEvent'
+  match '/addevent', :to => 'events#add'
   
   root :to => 'main#events'
 
