@@ -1,7 +1,8 @@
 Freefood::Application.routes.draw do
-  get "main/events"
-  get "main/singleEvent"
-  get "main/addEvent"
+  match '/events', :to => 'main#events'
+  match '/addevent', :to => 'main#addEvent'
+  
+  root :to => 'main#events'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
