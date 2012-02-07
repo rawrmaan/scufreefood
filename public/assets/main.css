@@ -29,3 +29,18 @@ div {
 header img {
 	max-width:100%;
 }
+
+.staticLinkBox {
+	width:100%;
+	height:44px;
+	margin-top:5px;
+	text-align:center;
+	font-size:12pt;
+	background:url('staticLinkBox.png') no-repeat;
+}
+
+.staticLinkBox a {
+	text-decoration:none;
+	vertical-align:middle;
+	line-height:44px;
+}
