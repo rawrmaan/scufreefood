@@ -1,8 +1,6 @@
-
-<div class="staticLinkBox">
-	<%= link_to "Add your event and increase visibility", addevent_path, :class => "addEventButton" %>
-</div>
-
-<div class="staticLinkBox">
-	<%= link_to "About Starving Student", '#', :class => "aboutUsButton" %>
-</div>
+<%= @event.name %>
+<%= @event.host %>
+<%= @event.location %>
+<%= @event.description %>
+<%= @event.going %>
+<%= @event.when %>
