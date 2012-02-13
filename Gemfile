@@ -26,6 +26,10 @@ group :test do
   gem 'webrat', '0.7.1'
 end
 
+group :production de
+  gem 'pg'
+end
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

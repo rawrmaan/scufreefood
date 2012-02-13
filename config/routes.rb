@@ -2,7 +2,7 @@ Freefood::Application.routes.draw do
   resources :events
 
   #match '/events', :to => 'events#show'
-  match '/addevent', :to => 'events#add'
+  match '/addevent', :to => 'events#new'
   
   root :to => 'events#index'
 

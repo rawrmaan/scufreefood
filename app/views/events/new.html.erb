@@ -1,0 +1,27 @@
+<h1>Submit your event</h1>
+
+<%= form_for(@event) do |f| %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :host_email %><br />
+    <%= f.text_field :host_email %>
+  </div>
+  <div class="field">
+    <%= f.label :host %><br />
+    <%= f.text_field :host %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Submit" %>
+  </div>
+<% end %>

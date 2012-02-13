@@ -1,6 +1,17 @@
-<%= @event.name %>
-<%= @event.host %>
-<%= @event.location %>
-<%= @event.description %>
-<%= @event.going %>
-<%= @event.when %>
+<div class="showHeader"> 
+	<span id="showHeaderName"><%= @event.name %></span> <br />
+	<span id="showHeaderHost"><%= @event.host %></span>
+</div>
+
+<div class="showBody">
+	<div id="showGoing"> 
+		56 people going <div id="showGoingButton">I'm Going</div>
+	</div>
+	<div id="showDescription">
+		<%= @event.description %>
+	</div>
+	<div id="showLocation">
+		happening at <%= @event.location %>
+	</div>
+</div>
+

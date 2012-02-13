@@ -1,3 +1,14 @@
+<div id="indexHeader">Events in the next 24 hours</div>
+
+<ul class="events">
+	<% @events.each do |event| %>
+		<li>
+			<span id="eventTitle"><%= link_to event.name, event %></span> <br />
+			<span id="eventHost"><%= event.host %></span> <br />
+			<span id="eventLocation"><%= event.location %></span>
+		</li>
+	<% end %>
+</ul>
 
 <div class="staticLinkBox">
 	<%= link_to "Add your event and increase visibility", addevent_path, :class => "addEventButton" %>
