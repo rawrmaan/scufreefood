@@ -1,0 +1,151 @@
+body {
+	-webkit-text-size-adjust:none;
+	width:100%;
+	max-width:640px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+	padding:0;
+	font-family:Helvetica;
+	background-color:#eee;
+}
+
+div {
+	display:block;
+	float:none;
+	clear:both;
+}
+
+#footer {
+	text-align:center;
+	font-size:10pt;
+}
+
+#footer p {
+	color:#666;
+}
+
+header img {
+	max-width:100%;
+}
+
+.staticLinkBox {
+	width:100%;
+	height:44px;
+	margin-top:5px;
+	text-align:center;
+	font-size:12pt;
+	background:url('staticLinkBox.png') no-repeat;
+}
+
+.staticLinkBox a {
+	text-decoration:none;
+	vertical-align:middle;
+	line-height:44px;
+}
+
+.staticLinkBox a:visited {
+	color:#0000ff;
+}
+
+.events {
+	margin:0;
+	padding:0;
+}
+
+.events li {
+	list-style:none;
+	padding:5px;
+	margin-bottom:5px;
+	font-weight:italic;
+	background-color:#eee;
+	padding-left:0;
+	border-style:solid;
+	border-color:#ccc;
+	border-width:1px;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-left-style:none;
+	border-right-style:none;
+}
+
+.events li a {
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+
+.events li span {
+	margin-left:7px;
+}
+
+#eventHost {
+	font-style:italic;
+}
+
+#indexHeader {
+	line-height:30px;
+	font-size:16px;
+	text-align:center;
+	width:100%;
+	background-color:#ffff99;
+}
+
+.showHeader {
+	margin:0;
+	background-color:#ccc;
+	padding:5px;
+	text-align:center;
+	font-size:20px;
+	border:1px #999 solid;
+}
+
+#showHeaderName {
+	font-weight:bold;
+}
+
+.showBody {
+	height:400px;
+	background-color:#fff;
+	padding:10px 13px 10px 13px;
+}
+
+#showGoing {
+	height:40px;
+	text-align:center;
+	background-color:#eee;
+	margin-bottom:5px;
+}
+
+#showGoingButton {
+	display:inline-block;
+	padding:5px;
+	margin:5px;
+	width:80px;
+	background-color:#ddd;
+	color:#cc0000;
+	border-radius:5px;
+}
+
+#showLocation {
+	text-align:center;
+	margin-top:10px;
+	font-style:italic;
+	color:#444;
+}
+
+.field {
+	padding:5px;
+}
+
+.field label {
+	margin-left:10px;
+}
+
+.field input {
+	width:280px;
+	margin-left:10px;
+	border:1px solid #ccc;
+}
