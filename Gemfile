@@ -26,7 +26,7 @@ group :test do
   gem 'webrat', '0.7.1'
 end
 
-group :production de
+group :production do
   gem 'pg'
 end
 
